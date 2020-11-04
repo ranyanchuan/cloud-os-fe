@@ -1,0 +1,25 @@
+{
+  "status": 1,
+  "data": [
+    {
+      "type": "addressbook",
+      "typeName": "通讯录",
+      "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/0eccc297-b5bd-47c1-84ad-1c638559c565.js",
+      "content": [
+        "{\"createTime\":1533812350000,\"creator\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"email\":\"407951113@qq.com\",\"id\":\"01ef5b5004d748c3a23b155571146ce7\",\"mobile\":\"18601969283\",\"modifiedTime\":1533864677000,\"modifier\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"name\":\"超哥\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"01ef5b5004d748c3a23b155571146ce7\",\"shortName\":\"x\",\"tenantId\":\"q2z4uglc\",\"ts\":1533864677336,\"userHonor\":\"[]\",\"userId\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"userMessage\":\"\",\"userProject\":\"[]\"}",
+        "{\"createTime\":1533817402000,\"creator\":\"51b87c95-7657-44eb-b720-9f7e87877e09\",\"email\":\"yumhf@yonyou.com\",\"id\":\"77b1052a9bbd41d39cb4184a193010fd\",\"mobile\":\"13261760005\",\"modifier\":\"\",\"name\":\"于沐晖\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"77b1052a9bbd41d39cb4184a193010fd\",\"shortName\":\"ymh\",\"tenantId\":\"q2z4uglc\",\"ts\":1533817401574,\"userHonor\":\"[]\",\"userId\":\"51b87c95-7657-44eb-b720-9f7e87877e09\",\"userMessage\":\"\",\"userProject\":\"[]\"}",
+        "{\"createTime\":1533819039000,\"creator\":\"d32336e6-a459-491a-9c0c-f457ca421588\",\"email\":\"yaoleib@yonyou.com\",\"id\":\"32ec101504844304978f4d58092906af\",\"mobile\":\"15801611227\",\"modifier\":\"\",\"name\":\"姚磊\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"32ec101504844304978f4d58092906af\",\"shortName\":\"yl\",\"tenantId\":\"q2z4uglc\",\"ts\":1533819039279,\"userHonor\":\"[]\",\"userId\":\"d32336e6-a459-491a-9c0c-f457ca421588\",\"userMessage\":\"\",\"userProject\":\"[]\"}"
+      ]
+    },
+    {
+      "type": "service",
+      "typeName": "应用",
+      "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/a762c34b-7694-416a-8f70-7dcc07fb318d.js",
+      "content": [
+        "{\"relationUsers\":[],\"serviceIcon\":\"\",\"simpleApplicationStatus\":false,\"everyone\":false,\"level\":0,\"serviceCode\":\"6e882ed2-f06e-408b-9c5d-89371242c61f\",\"clientStatus\":false,\"hasWidget\":false,\"capable\":false,\"serviceName\":\"高铁web\",\"relationServices\":[],\"url\":\"http://www.baidu.com\",\"teamMenbersUnuse\":false,\"createTime\":1516153183000,\"crossTenant\":false,\"enable\":true,\"tenantId\":\"gtzceot7\",\"phoneStatus\":false,\"applicationId\":\"ff266884-beeb-48d0-8643-696bf1c4df55\",\"serviceId\":\"e85dfde7-7f0f-4805-be2b-e9f56d3ccfd0\",\"webStatus\":true,\"selected\":false,\"primaryKey\":\"e85dfde7-7f0f-4805-be2b-e9f56d3ccfd0\",\"ts\":1516153183000}",
+        "{\"relationUsers\":[],\"serviceIcon\":\"https://cdn.yonyoucloud.com/pro/workbench/e996.svg\",\"simpleApplicationStatus\":false,\"everyone\":false,\"level\":0,\"serviceCode\":\"serve_43\",\"clientStatus\":true,\"hasWidget\":false,\"capable\":false,\"serviceName\":\"维护自定义档案\",\"relationServices\":[],\"url\":\"http://workbenchdev.yyuap.com/defdoc/pages/docInfo/index.html\",\"teamMenbersUnuse\":false,\"crossTenant\":false,\"enable\":true,\"tenantId\":\"gtzceot7\",\"phoneStatus\":true,\"applicationId\":\"app_4\",\"serviceId\":\"serve_43\",\"webStatus\":true,\"selected\":false,\"primaryKey\":\"serve_43\"}",
+        "{\"orgNames\":[],\"modifiedTime\":1520995646000,\"applicationType\":0,\"everyone\":false,\"clientStatus\":true,\"hasWidget\":false,\"applicationIcon\":\"https://cdn.yonyoucloud.com/pro/workbench/default.svg\",\"eternal\":false,\"shortCut\":true,\"simpleStatus\":true,\"orgIds\":[],\"enable\":true,\"service\":[],\"userIds\":[],\"tenantId\":\"gtzceot7\",\"phoneStatus\":true,\"userNames\":[],\"orders\":10,\"applicationId\":\"206\",\"applicationCode\":\"206\",\"webStatus\":true,\"applicationName\":\"微邮\",\"selected\":false,\"primaryKey\":\"206\"}"
+      ]
+    }
+  ]
+}

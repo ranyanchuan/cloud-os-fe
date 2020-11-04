@@ -1,0 +1,76 @@
+.wrap {
+  background: #F3F3F3;
+}
+
+.wrap :global(.diwork-content-fixed) {
+  background: #F3F3F3;
+}
+
+.header {}
+
+.logostyle {
+  height: 26px;
+}
+
+.header :global(.lebra-navbar-left-icon) {
+  padding-left: 20px;
+}
+
+.header :global(.lebra-navbar-left-content) {
+  padding-left: 5px;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 355px;
+  height: 404px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.imgbox{
+  height: 162px;
+  width: 100%;
+}
+
+.list li{
+  padding-left: 94px;
+  display: flex;
+  line-height: 22px;
+  margin-bottom: 8px;
+  color: #FFA600;
+  font-size: 16px;
+}
+
+.list li i{
+  color: #FFA600;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.des{
+  padding-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+}
+
+.des p{
+  margin-bottom: 10px;
+}
+
+.button{
+  padding-top: 15px;
+}
+
+.button :global(.u-button){
+  border-radius: 18px;
+  height: 36px;
+  padding-left: 38px;
+  padding-right: 38px;
+}

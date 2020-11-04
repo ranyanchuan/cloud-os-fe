@@ -1,0 +1,51 @@
+.wrap {
+	background: #F3F3F3;
+}
+
+.wrap :global(.diwork-content-fixed) {
+	background: #F3F3F3;
+}
+
+.header {}
+
+.logostyle {
+	height: 26px;
+}
+
+.modal {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 355px;
+	padding-bottom: 30px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.05);
+	border-radius: 8px;
+}
+
+.imgbox {
+	height: 162px;
+	width: 100%;
+}
+
+.des {
+	padding: 12px 20px 0;
+	font-size: 14px;
+	line-height: 24px;
+	color: #666666;
+	text-align: center;
+}
+
+.des i{
+	color: #FFA600;
+	position: relative;
+	top: 2px;
+	margin-right: 2px;
+}
+
+.des p{
+	color: #FFA600;
+	text-align: left;
+	text-indent: 28px;
+}

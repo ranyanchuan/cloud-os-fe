@@ -1,0 +1,22 @@
+安装器环境
+sed -i ''  "s/\${pom.workbench.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.workbench.domain_out} -rl dist`
+sed -i ''  "s/\${pom.sso.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.sso.domain_out} -rl dist`
+sed -i ''  "s/\${pom.user.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.user.domain_out} -rl dist`
+sed -i ''  "s/\${pom.ms.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.ms.domain_out} -rl dist`
+sed -i ''  "s/\${pom.auth.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.auth.domain_out} -rl dist`
+sed -i ''  "s/\${pom.org.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.org.domain_out} -rl dist`
+sed -i ''  "s/\${pom.tenantauth.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.tenantauth.domain_out} -rl dist`
+sed -i ''  "s/\${pom.mc.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.mc.domain_out} -rl dist`
+sed -i ''  "s/\${pom.upc.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.upc.domain_out} -rl dist`
+sed -i ''  "s/\${pom.bd-ext.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.bd-ext.domain_out} -rl dist`
+sed -i ''  "s/\${pom.staff.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.staff.domain_out} -rl dist`
+sed -i ''  "s/\${pom.fastdfs.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.fastdfs.domain_out} -rl dist`
+sed -i ''  "s/\${pom.message.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.message.domain_out} -rl dist`
+sed -i ''  "s/\${pom.manager.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.manager.domain_out} -rl dist`
+sed -i ''  "s/\${pom.bd.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.bd.domain_out} -rl dist`
+sed -i ''  "s/\${pom.basedoc.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.basedoc.domain_out} -rl dist`
+sed -i ''  "s/\${pom.isearch.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.isearch.domain_out} -rl dist`
+sed -i ''  "s/\${pom.ys.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.ys.domain_out} -rl dist`
+sed -i '' "s/\${pom.domain.workbench.path}/\/workbench/g" `grep \\${pom.domain.workbench.path} -rl dist`
+sed -i '' "s/\${pom.apptenant.domain_out}/http:\/\/iuap-yewu-two.yyuap.com/g" `grep \\${pom.apptenant.domain_out} -rl dist`
+sed -i '' "s/\${pom.help.domain_out}/https:\/\/helpcenter-yonsuite-bip.diwork.com/g" `grep \\${pom.help.domain_out} -rl dist`

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>事项库</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 18 0 18 18 0 18"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-8" transform="translate(-383.000000, -53.000000)">
+            <g id="事项库" transform="translate(382.000000, 51.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M3.46835625,16.5 L15.28125,16.5 L15.28125,7.00039583 L3.46835625,7.00039583 L3.46835625,16.5 Z M5.83125,10.1666667 L5.83125,8.1875 L12.9191438,8.1875 L12.9191438,10.1666667 L5.83125,10.1666667 Z M16.0688681,2.25011875 C16.7224931,2.25011875 17.2501181,2.78449375 17.2501181,3.43761875 L17.2501181,5.02095208 C17.2501181,5.67368125 16.7224931,6.20845208 16.0688681,6.20845208 L2.68136812,6.20845208 C2.03168062,6.20845208 1.50011812,5.67368125 1.50011812,5.02095208 L1.50011812,3.43761875 C1.50011812,2.78449375 2.03168062,2.25011875 2.68136812,2.25011875 L16.0688681,2.25011875 Z" id="Combined-Shape" fill="#8A8E96"></path>
+            </g>
+        </g>
+    </g>
+</svg>

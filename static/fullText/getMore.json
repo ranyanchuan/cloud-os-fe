@@ -1,0 +1,150 @@
+{
+  "status": 1,
+  "data": {
+    "data": [
+      {
+        "content": [
+          "{\"createTime\":1528421771000,\"creator\":\"fdd3248e-f65e-46fd-9da2-6a886d7a0547\",\"email\":\"xingychb@yonyou.com\",\"id\":\"f5f588dfc7db48e0bf48ab813f0128a5\",\"mobile\":\"18601969283\",\"modifier\":\"\",\"name\":\"邢永超\",\"officeTel\":\"\",\"orgId\":\"6e8ab2ced34b4e4b84077ebe45f7a651\",\"orgName\":\"小小方默认部门\",\"photo\":\"https://cdn.yonyoucloud.com/dev/yht/avatar/style/images/avatar/fdd3248e-f65e-46fd-9da2-6a886d7a0547/middle/middle.png\",\"primaryKey\":\"f5f588dfc7db48e0bf48ab813f0128a5\",\"shortName\":\"xyc\",\"tenantId\":\"lnkg1ueb\",\"ts\":1528421770988,\"userHonor\":\"[]\",\"userId\":\"fdd3248e-f65e-46fd-9da2-6a886d7a0547\",\"userMessage\":\"\",\"userProject\":\"[]\"}"
+        ],
+        "type": "addressbook",
+        "typeName": "通讯录",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/f52208c6-05cf-48ff-83dc-241c853515bc.js",
+        "last": true,
+        "totalElements": 1,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 1,
+        "size": 10,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "service",
+        "typeName": "应用",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/74c230eb-531d-4530-8430-728bbf64bae2.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "wmail",
+        "typeName": "微邮",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/b4b82960-740e-42f9-846e-ce1562db32c4.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "vote",
+        "typeName": "投票",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/fc4ae2d8-27be-4596-9f41-1cb0f3f4a701.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "topic",
+        "typeName": "话题",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/a29d20da-7b93-4beb-8dc4-44de2b7616b6.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "team",
+        "typeName": "内部群",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/5f5044ad-d9c2-42bf-8f18-c4278c05065b.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "speech",
+        "typeName": "发言",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/1e2c35e1-03fc-4e1a-a259-1e4ffec101dc.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "schedule",
+        "typeName": "日程",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/bf1c95da-df9b-498c-8cf8-89450cc7c5f5.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "file",
+        "typeName": "文库",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/dc2c8403-826b-4432-83da-99398fa3b274.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      },
+      {
+        "content": [],
+        "type": "announce",
+        "typeName": "公告",
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/197bfff0-edf3-472e-9c6a-3f80750f34f6.js",
+        "last": true,
+        "totalElements": 0,
+        "totalPages": 1,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 0,
+        "size": 0,
+        "number": 0
+      }
+    ],
+    "hasOther": false
+  }
+}

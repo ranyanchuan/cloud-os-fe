@@ -1,0 +1,28 @@
+{
+    "status": 1,
+    "data": {
+        "content": [
+            "{\"createTime\":1533812350000,\"creator\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"email\":\"407951113@qq.com\",\"id\":\"01ef5b5004d748c3a23b155571146ce7\",\"mobile\":\"18601969283\",\"modifiedTime\":1533864677000,\"modifier\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"name\":\"超哥\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"01ef5b5004d748c3a23b155571146ce7\",\"shortName\":\"x\",\"tenantId\":\"q2z4uglc\",\"ts\":1533864677336,\"userHonor\":\"[]\",\"userId\":\"01227318-cb67-4560-9965-66f466f2b3e7\",\"userMessage\":\"\",\"userProject\":\"[]\"}",
+            "{\"createTime\":1533817402000,\"creator\":\"51b87c95-7657-44eb-b720-9f7e87877e09\",\"email\":\"yumhf@yonyou.com\",\"id\":\"77b1052a9bbd41d39cb4184a193010fd\",\"mobile\":\"13261760005\",\"modifier\":\"\",\"name\":\"于沐晖\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"77b1052a9bbd41d39cb4184a193010fd\",\"shortName\":\"ymh\",\"tenantId\":\"q2z4uglc\",\"ts\":1533817401574,\"userHonor\":\"[]\",\"userId\":\"51b87c95-7657-44eb-b720-9f7e87877e09\",\"userMessage\":\"\",\"userProject\":\"[]\"}",
+            "{\"createTime\":1533819039000,\"creator\":\"d32336e6-a459-491a-9c0c-f457ca421588\",\"email\":\"yaoleib@yonyou.com\",\"id\":\"32ec101504844304978f4d58092906af\",\"mobile\":\"15801611227\",\"modifier\":\"\",\"name\":\"姚磊\",\"officeTel\":\"\",\"orgId\":\"63a32d80cc4d42cc8dacc051b7fee775\",\"orgName\":\"国际贩毒集团默认部门\",\"photo\":\"\",\"primaryKey\":\"32ec101504844304978f4d58092906af\",\"shortName\":\"yl\",\"tenantId\":\"q2z4uglc\",\"ts\":1533819039279,\"userHonor\":\"[]\",\"userId\":\"d32336e6-a459-491a-9c0c-f457ca421588\",\"userMessage\":\"\",\"userProject\":\"[]\"}"
+        ],
+        "type": "addressbook",
+        "typeName": "通讯录",
+        "typeNameExt0": "Contacts",
+        "typeNameExt1": "通訊錄",
+        "typeNameExt2": "Contacts",
+        "typeNameExt3": "通訊錄",
+        "typeNameExt4": null,
+        "typeNameExt5": null,
+        "typeNameExt6": null,
+        "renderUrl": "https://cdn.yonyoucloud.com/diwork/widget/8fd29ab3-229e-47bd-8719-f13b2a8e2c87.js",
+        "last": true,
+        "totalElements": 3,
+        "totalPages": 2,
+        "sort": null,
+        "first": true,
+        "numberOfElements": 3,
+        "size": 10,
+        "number": 0
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"status": 1,
+	"data": [
+		{
+			"id": "2d5276f23f4127523600105efa91bf31",
+			"preview_url": "https://web-portal-daily.yyuap.com/front/#/home?loadTemId=2d5276f23f4127523600105efa91bf31&preview=false",
+			"name": "工作门户",
+			"order": 1000,
+			"defaultPortal": false
+		},
+		{
+			"id": "2162",
+			"preview_url": "https://nec-u8c-daily.yyuap.com/static/home.html#/?loadTemId=2162",
+			"name": "《*》Work Portal",
+			"order": 1000,
+			"defaultPortal": false
+		}
+	]
+}

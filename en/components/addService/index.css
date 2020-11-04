@@ -1,0 +1,719 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+.wrap {
+  background: #ffffff;
+  width: 800px;
+  height: 80%;
+  max-height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  bottom: auto;
+  transform: translate(-50%);
+  overflow: auto;
+}
+
+.wrap header {
+  height: 44px;
+  border-bottom: 1px solid #E4E4E4;
+  line-height: 44px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.wrap header>i {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.form {
+  padding: 48px 25px 83px 25px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  font-size: 14px;
+  font-weight: normal
+}
+
+.form :global(.app-bf1) {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.form :global(.keynone>span>span){
+  display: none !important;
+}
+
+.form :global(.items:last-child > .line) {
+  display: none;
+}
+
+.form :global(.app-bf1 > label) {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(85, 85, 85, 1);
+  /* line-height: 20px; */
+  width: 118px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.form :global(.app-bf1 > span.labelName) {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  line-height: 20px;
+  width: 124px;
+  min-height: 1px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+.form span :global(span.appRequired) {
+  color: #CD2D34;
+  display: inline;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+}
+
+.form input {
+  width: 280px;
+  height: 32px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  border-color: rgba(208, 208, 208, 1);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.form input::placeholder {
+  font-size: 12px;
+  color: #ccc
+}
+
+.form :global(.visible input) {
+  padding-right: 30px;
+}
+
+.form :global(textarea) {
+  width: 280px;
+  height: 140px;
+  padding: 5px 8px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  border-color: rgba(208, 208, 208, 1);
+  resize: none;
+}
+
+.form :global(.um-bf1:nth-child(2)) {
+  padding-left: 20px;
+}
+
+.appTitle {
+  width: 68px;
+  height: 22px;
+  font-size: 17px;
+  color: rgba(71, 77, 84, 1);
+  line-height: 22px;
+  margin: 23px 0px 28px 0px;
+}
+
+.form :global(.appSelect) {
+  width: 280px;
+  height: 36px;
+  border-color: rgba(208, 208, 208, 1);
+  ;
+}
+
+.form :global(span.appTag) {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  text-align: left;
+  width: 280px;
+  margin-bottom: 13px;
+}
+
+.form :global(.appTag .appTagIn) {
+  color: rgba(12, 16, 27, 0.5);
+}
+
+.form :global(.app-classify-select .u-select-selection-rendered), .form :global(.app-area-select .u-select-selection-rendered) .form :global(.strategy-select .u-select-selection-rendered) {
+  line-height: 34px;
+  font-size: 14px;
+  color: #555;
+  /* font-family: "Microsoft Yahei", STHeiTi, Tahoma, Arial, Roboto, "Droid Sans", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-self; */
+}
+
+.form :global(.app-classify label) {
+  display: block;
+  width: 160px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.form :global(.app-classify span.labelName) {
+  display: block;
+  width: 160px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.form :global(.app-classify-select) {
+  width: 280px;
+  margin-left: 127px;
+}
+
+.form :global(.app-area) {
+  margin-top: 16px;
+}
+
+.form :global(.app-area label) {
+  display: block;
+  width: 155px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.form :global(.app-area span.labelName) {
+  display: block;
+  width: 155px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.form :global(.app-area-select) {
+  width: 280px;
+  margin-left: 127px;
+}
+
+.form :global(.appImg) {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  vertical-align: -40px;
+}
+
+.form :global(.appDefaultBGImg) {
+  display: inline-block;
+  background: url("./upload.svg") no-repeat center #ffffff;
+  /* border-radius: 3px */
+}
+
+.form :global(.appTips) {
+  vertical-align: text-bottom;
+  position: absolute;
+  padding-top: 75px;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+.form :global(.uploadImg) {
+  margin-left: 127px;
+  margin-top: 8px;
+}
+
+.form :global(.selectImg) {
+  margin-left: 127px;
+  margin-top: 8px;
+}
+
+.form :global(.appHelp) {
+  color: rgba(12, 100, 195, 1);
+  cursor: pointer;
+}
+
+.form :global(.app-checkbox) {
+  width: auto !important;
+  /*font-size: 14px !important;*/
+  color: rgba(71, 77, 84, 1);
+  margin-right: 10px;
+}
+
+:global(.addAppClass) {
+  background: #fff
+}
+
+:global(.addAppClass .footer) {
+  position: fixed;
+  width: 100%;
+  height: 48px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+}
+
+:global(.addAppClass .footer button) {
+  position: absolute;
+  top: 10px;
+  /* height: 28px;
+  line-height:28px;
+  width: 68px;
+  min-width: 68px;
+  font-size: 14px;
+  border-radius: 3px; */
+}
+
+/* .appValidate{
+
+  // left: 500px;
+  // top: -630px;
+  // position: relative;
+} */
+
+:global(.app-bf1 .appRadioGroup) {
+  display: inline-block
+}
+
+:global(.app-bf1 .visibleIcon) {
+  position: relative;
+  right: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dialog :global(.u-modal-title) {
+  /* font-family: "Microsoft Yahei", STHeiTi, Tahoma, Arial, Roboto, "Droid Sans", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-self; */
+  font-size: 19px;
+}
+
+.form :global(.disabled) {
+  disabled: true;
+}
+
+/*  给矩形一个1px实心颜色rgb为#E4E4E2的边框  */
+
+.appValidate {
+  /*color: rgb(244, 67, 54);*/
+  color: #474D54;
+  display: inline-block;
+  height: 46px;
+  line-height: 46px;
+  /* width: 240px; */
+  width: auto;
+  padding: 0 10px;
+  border: 1px solid #DFE1E3;
+  margin-left: 15px;
+  margin-top: -5px;
+  position: absolute;
+  font-size: 14px;
+  background: #fcfcfc;
+}
+
+.appValidate :global(.iconfont) {
+  color: #bd3646;
+  padding-right: 4px;
+  vertical-align: sub
+}
+
+.appValidate:global(.imgWarningCls) {
+  margin-left: 150px;
+}
+
+/*    上下透明，右边框为10px   */
+
+.appValidate:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -13px;
+  width: 0;
+  height: 0;
+  border-right: 13px solid #DFE1E3;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+}
+
+/*  上下透明，右边框为9px且在:before伪元素三角形的基础上，向右，下移动了1px  */
+
+.appValidate:after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -12px;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid transparent;
+  border-right: 13px solid #fcfcfc;
+  border-top: 13px solid transparent;
+}
+
+.dialog :global(.u-modal-dialog) {
+  width: 370px;
+  height: 200px;
+  margin: auto;
+  top: 31%;
+  transform: translate(0, 31%);
+}
+
+.dialog :global(.u-modal-body) {
+  padding: 15px 25px 15px 25px;
+}
+
+.dialog :global(.u-button) {
+  background: #4C4C4C;
+  /*color: #fff;*/
+}
+
+.closeDialogModal span {
+  line-height: 2;
+  font-size: 19px;
+  /* font-family: "Microsoft Yahei", STHeiTi, Tahoma, Arial, Roboto, "Droid Sans", "Droid Sans Fallback", "Heiti SC", "Hiragino Sans GB", Simsun, sans-self; */
+}
+
+.closeDialogModal :global(.iconfont) {
+  position: absolute;
+  left: 6px;
+  top: 23px;
+  font-size: 19px;
+}
+
+.appValidate :global(.icon-error4) {
+  margin-left: 10px;
+  margin-right: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+
+.form :global(.u-table) tr {
+  white-space: nowrap;
+}
+
+/*form*/
+
+.formBtnFile {
+  position: absolute;
+  top: 0;
+  left: -60px;
+  z-index: 2001;
+  opacity: 0;
+  /* opacity:0;
+  visibility:hidden */
+}
+
+/*新增上传图片的不同方式,1.自己上传iconOuter 2.预制cdnImgOuter*/
+
+.form :global(.uploadTypeBtn) {
+  float: right;
+  display: block;
+  height: 90px;
+  width: calc(100% - 240px);
+  justify-content: flex-end;
+  align-items: start;
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+}
+
+.form :global(.uploadTypeBtn .uploadImg) {
+  display: block;
+  margin-left: 0px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.form :global(.uploadTypeBtn .selectImg) {
+  display: block;
+  margin-left: 0px;
+  background: linear-gradient(45deg, rgba(252, 76, 47, 1) 0%, rgba(238, 34, 35, 1) 100%)!important;
+}
+
+/* :global(.uploadTypeBtn .uploadImg.localImg){
+  background:rgba(228,228,228,1);
+  color:rgba(71,77,84,1);
+} */
+
+.iconDialogContent {
+  min-height: 200px;
+	text-align: center;
+	text-indent: 0;
+}
+
+.iconDialogContent span {
+  display: block;
+}
+
+.iconDialogContent :global(.iconOuter), .iconDialogContent :global(.appImg) {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+  border: 1px dashed rgba(117, 127, 140, 0.5);
+  margin: 0 auto;
+  cursor: pointer;
+  position: relative;
+}
+
+.iconDialogContent :global(.iconOuter input) {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.iconDialogContent :global(.iconAdd) {
+  font-size: 17px;
+  font-weight: bold;
+  color: #757F8C;
+  line-height: 100px;
+}
+
+.iconDialogContent :global(input#btn_file) {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.iconDialogContent :global(.iconDesc) {
+  font-size: 14px;
+  /* font-family: MicrosoftYaHei; */
+  color: rgba(85, 85, 85, 1);
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.iconDialogContent :global(.iconTip) {
+  font-size: 14px;
+  /* font-family: MicrosoftYaHei; */
+  color: rgba(191, 191, 191, 1);
+  line-height: 20px;
+}
+
+.iconDialogContent :global(.hidden_form), .iconDialogContent .formBtnFile {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.iconDialogContent .formBtnFile {
+  cursor: pointer;
+}
+
+/*第二种上传方式*/
+
+.iconDialogContent2 {
+  min-height: 200px;
+  max-height: 300px;
+	overflow: auto;
+	text-indent: 0;
+}
+
+.iconDialogContent2 :global(.cdnImgOuter) {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 10px 12px;
+  text-align: center;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 1px 1px 0px rgba(74, 81, 93, 0.1);
+  border-radius: 3px;
+  border: 1px solid rgba(208, 208, 208, 1);
+	cursor: pointer;
+}
+
+.iconDialogContent2 :global(.cdnImgOuter.cdnImgActive) {
+  background: #D0D0D0;
+}
+
+.iconDialogContent2 :global(.cdnImgOuter .cdnImg) {
+  width: 30px;
+  height: 30px;
+  margin-top: 8px;
+  /* border-radius: 3px;
+    border: 1px solid rgba(208,208,208,1); */
+}
+
+:global(.u-notification.u-notification-bottomRight) {
+  z-index: 1701;
+}
+
+/**弹框提示去快速授权那里**/
+
+:global(.dialogMsg .dialogMsgTip) {
+  color: #007ACE;
+  cursor: pointer;
+}
+
+:global(.dialogMsg .dialogMsgTip:hover), :global(.dialogMsg .dialogMsgTip:active) {
+  color: #084E8A;
+}
+
+/*新增选择推送的服务*/
+
+:global(.relatedService) {
+  width: 500px;
+  max-height: 290px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  border: 1px solid rgba(208, 208, 208, 1);
+  margin-top: 10px;
+  margin-left: 127px;
+}
+
+:global(.relatedServiceHeader) {
+  padding: 18px 0 18px 20px;
+}
+
+:global(.relatedServiceBody) {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.form :global(.u-checkbox.is-checked .u-checkbox-label:before) {
+  border-color: rgba(204, 204, 204, 1);
+  box-shadow: inset 0 0 0 10px #fff;
+}
+
+.form :global(.u-checkbox.is-checked .u-checkbox-label:after) {
+  color: #EE2223;
+  font-size: 12px;
+  line-height: 15px
+}
+
+.form :global(.u-radio.is-checked .u-radio-label:before) {
+  border: 1px solid rgba(204, 204, 204, 1)
+}
+
+.form :global(.u-radio .u-radio-label:before) {
+  border-color: rgba(204, 204, 204, 1);
+  width: 14px;
+  height: 14px;
+}
+
+.form :global(.u-checkbox .u-checkbox-label:after) {
+  height: 14px;
+  width: 14px;
+  border-radius: 2px;
+}
+
+.form :global(.u-checkbox .u-checkbox-label:before) {
+  height: 14px;
+  width: 14px;
+  border-radius: 2px;
+}
+
+.form :global(.u-radio.is-checked .u-radio-label:after) {
+  position: absolute;
+  border-radius: 4px;
+  height: 6px;
+	width: 6px;
+  background: #EE2223;
+  margin-left: 4px;
+}
+
+.option {
+  padding: 15px;
+  justify-content: flex-end;
+  border-top: 1px solid #E4E4E4;
+}
+
+.form :global(.strategy-select) {
+  width: 280px;
+}
+
+.form :global(.u-checkbox .u-checkbox-label) {
+  padding-left: 22px;
+  vertical-align: 2px;
+}
+
+.form :global(.u-checkbox input[type='checkbox']) {
+  width: 14px;
+  height: 14px;
+}
+
+.form :global(.u-radio .u-radio-label) {
+  padding-left: 22px
+}
+
+.form :global(.u-radio .u-radio-label:before) {
+  bottom: 3px
+}
+
+.form :global(.displayHeight) {
+  height: 1px;
+}
+
+.form :global(.hideHeight) {
+  height: 0px;
+}
+
+.form :global(.line) {
+  width: 125%;
+  transition: 1s height;
+  background: #E4E4E4;
+  position: relative;
+  left: -29px;
+  /* bottom: 3px; */
+  margin: 16px 0;
+}
+
+.form :global(.long) {
+  left: -360px;
+  width: 222%
+}
+
+.form :global(.app-bf1 input), .form :global(.app-bf1 textarea), .form :global(.app-bf1 .u-select-selection-selected-value), .form :global(.app-bf1 .u-radio .u-radio-label), .form :global(.app-bf1 .u-checkbox span) {
+  color: #333;
+  font-size: 14px
+}
+
+.app_classify_option {
+  font-size: 14px;
+  padding: 7px 8px!important;
+}
+
+.form :global(.selectTypeArr) {
+  padding: 0 10px;
+  border-bottom: 1px solid #505766;
+}
+
+.form :global(.selectTypeArr li) {
+  position: relative;
+  padding: 10px;
+}
+
+.form :global(.selectTypeArr li.active) {
+  color: #EE2223;
+}
+
+.form :global(.selectTypeArr li.active::after) {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  width: 0;
+  height: 0;
+  border: 4px solid;
+  border-color: transparent transparent #505766;
+}
+
+
+.form :global(.items){
+	padding-top: 20px;
+	border-bottom: 1px solid #e4e4e4;
+}
+.form :global(.items:first-child){
+	padding-top: 0px;
+}
+.form :global(.items:last-child){
+	border: none;
+}

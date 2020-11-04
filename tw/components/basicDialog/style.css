@@ -1,0 +1,28 @@
+:global(.basic_dialog_modal .u-modal.in .u-modal-dialog) {
+  min-width: 0px;
+}
+
+:global(.basic_dialog_modal .u-modal-dialog) {
+  width: 370px !important;
+  /* height: 200px !important; */
+}
+
+.titleStyle {
+  font-size: 20px;
+  font-family: MicrosoftYaHei;
+  color: rgba(17, 17, 17, 1)
+}
+
+:global(.basic_dialog_modal .content_p) {
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: rgba(85, 85, 85, 1);
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+div.customtip {
+  z-index: 1802;
+  max-height: 80%;
+  overflow: auto;
+}

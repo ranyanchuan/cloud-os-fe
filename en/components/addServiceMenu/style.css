@@ -1,0 +1,164 @@
+.wrapper{
+    width: 520px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow:0px 0px 14px 6px rgba(102,102,102,1);
+    border-radius:6px;
+    font-size: 14px;
+    color:#666;
+    background-color: #fff
+}
+.wrapper header{
+    border-bottom: 1px solid #E4E4E4;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+
+}
+.content{
+    padding: 0 20px;
+}
+.content p{
+    margin-top:10px;
+}
+ .wrapper  footer{
+     padding:0 20px;
+     height: 62px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     border-top: 1px solid #E4E4E4;
+     margin-top:4px
+ }
+ .tree{
+     border: 1px  solid #CCCCCC;
+     max-height: 350px;
+     min-height: 200px;
+     margin: 4px 0px;
+     overflow-y: scroll
+ }
+ .menuInfo{
+
+ }
+ .menuName,.menuCode{
+    display: flex;
+    height: 52px;
+    align-items: center;
+ }
+ .menuName label,.menuCode label{
+     width: 70px
+ }
+ .menuName input{
+    height: 32px;
+    flex-basis: 1;
+    flex-grow: 1;
+    padding-left: 8px;
+    border-radius:4px;
+    border:1px solid rgba(217,217,217,1);
+ }
+ .menuName input:disabled{
+    color:#d9d9d9
+ }
+ .menuCode input{
+    height: 32px;
+    flex-basis: 1;
+    flex-grow: 1;
+    padding-left: 8px;
+    border-radius:4px;
+    border:1px solid rgba(217,217,217,1);
+ }
+ .tree .leaf{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: -100%;
+    padding-left: 100%;
+    /* background: rgba(243,245,249,1) */
+ }
+ 
+ .tree .leaf a{
+    flex-grow: 1;
+    padding: 0;
+    height: 34px;
+    line-height: 34px;
+ }
+ /* .tree .leaf :global(.u-tree-child-tree.u-tree-child-tree-open li){
+    display: flex
+ } */
+
+ .tree .leaf :global(.u-tree-child-tree.u-tree-child-tree-open li  a){
+    flex-grow: 1;
+ }
+ .option{
+     display: none
+ }
+ .node{
+     display: flex;
+     justify-content: space-between
+ }
+ .node:hover .option{
+    display: inline;
+    color: #588CE9
+ }
+ .node:hover .option:hover{
+    cursor: pointer;
+ }
+ .autoGenaret{
+    flex-grow: 1;
+    border: 1px solid rgba(217,217,217,1);
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left:10px;
+    cursor: pointer;
+ }
+ .del{
+     float: right;
+     margin-right: 20px;
+     color: #999999;
+     cursor: pointer;
+ }
+
+ .wrapper :global(.u-tree li span.u-tree-checkbox.u-tree-checkbox-indeterminate+a)
+ {
+    color: red
+ }
+ .wrapper :global(.u-tree li span.u-tree-checkbox){
+     display: none
+ }
+ .red{
+     color: red;
+     background: rgba(243,245,249,1)
+ }
+ .wrapper :global(.u-tree li a:hover){
+    /* background:rgba(243,245,249,1); */
+    border-radius: 0
+ }
+ .noddBg{
+    background:rgba(243,245,249,1);
+
+ }
+ .wrapper :global(.u-tree li a){
+     height: 34px;
+     line-height: 34px;
+     background: transparent
+ }
+ .wrapper :global(.u-tree li span.u-tree-switcher){
+    
+        height: 34px;
+        line-height: 34px;
+ }
+ .hoverBg:hover{
+    background:rgba(243,245,249,1);
+ }
+
+.tree :global(.u-tree li a.u-tree-node-content-wrapper .u-tree-title) {
+   width: 100%;
+}
+.tree :global(.u-tree li a.u-tree-node-content-wrapper):hover,
+.tree :global(.u-tree li a.u-tree-node-content-wrapper .u-tree-title):hover {
+   background: transparent;
+}

@@ -1,0 +1,26 @@
+{
+    "status": 1,
+    "data": [
+        {
+            "id": "GZTSYS002",
+            "type": "service",
+            "url": "http://qq.com/?serviceCode=GZTSYS001",
+            "title": "通讯录",
+            "hasWidget": false
+        },
+        {
+            "id": "GZTSYS003",
+            "type": "service",
+            "url": "http://qq.com/?serviceCode=GZTSYS001",
+            "title": "微邮",
+            "hasWidget": false
+        },
+        {
+            "id": "GZTSYS004",
+            "type": "service",
+            "url": "http://qq.com/?serviceCode=GZTSYS001",
+            "title": "审批",
+            "hasWidget": false
+        }
+    ]
+}

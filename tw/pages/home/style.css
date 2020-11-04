@@ -1,0 +1,89 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  overflow: auto;
+  /* background: #A8ABB0; */
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 56px;
+  padding-right: 76px;
+  padding-bottom: 50px;
+}
+
+/* XL尺寸 */
+
+@media screen and (device-width: 1441px) {
+  .content {}
+}
+
+/* L尺寸 */
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .content {}
+}
+
+/* M尺寸 */
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .content {
+    padding-left: 52px;
+    padding-right: 48px;
+  }
+}
+
+.manage {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  overflow: hidden;
+  height: 26px;
+  padding-top: 5px;
+  cursor: pointer;
+  border-radius: 13px;
+  min-width: 96px;
+  padding-left: 10px;
+}
+
+.manage:hover {
+  background: rgba(80, 87, 102, 0.2);
+  /* color: #ffffff; */
+}
+
+.manage:hover span {
+  color: #ffffff !important;
+}
+
+
+.manage:hover :global(.iconfont) {
+  color: #ffffff !important;
+}
+
+.manage :global(.iconfont) {
+  float: left;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  /* color: #505766; */
+}
+
+
+.manage span {
+  float: left;
+  /* color: #505766; */
+  line-height: 16px;
+  /* margin-left: 8px; */
+  font-size: 12px;
+  /* width: 60px; */
+  padding: 0 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

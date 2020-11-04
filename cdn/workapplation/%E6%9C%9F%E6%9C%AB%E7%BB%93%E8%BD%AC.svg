@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="43px" viewBox="0 0 60 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>期末结转</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0742862069 59.98455 0.0742862069 59.98455 26.6896552 0 26.6896552"></polygon>
+        <polygon id="path-3" points="0 0.000148275862 59.98455 0.000148275862 59.98455 13.2560103 0 13.2560103"></polygon>
+    </defs>
+    <g id="首页磁贴调整final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图标" transform="translate(-3256.000000, -1645.000000)">
+            <g id="期末结转" transform="translate(3256.000000, 1636.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="60" height="60"></rect>
+                <g id="Group-134" transform="translate(0.000000, 9.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 16.310345)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M34.48455,11.8622172 L50.98455,11.8622172 C51.82605,11.8622172 52.48455,12.514631 52.48455,13.3449759 C52.48455,14.1604931 51.82605,14.8277345 50.98455,14.8277345 L34.48455,14.8277345 C33.65955,14.8277345 32.98455,14.1604931 32.98455,13.3449759 C32.98455,12.514631 33.65955,11.8622172 34.48455,11.8622172 Z M-0.00045,0.0742862069 L-0.00045,22.2415276 C-0.00045,24.6880793 2.00955,26.6898034 4.49955,26.6898034 L59.98455,26.6898034 L59.98455,0.0742862069 L-0.00045,0.0742862069 Z" id="Fill-1" fill="#00D6BE" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-6">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-5"></g>
+                        <path d="M59.98455,4.44842414 L59.98455,13.2560103 L-0.00045,13.2560103 L-0.00045,4.44842414 C-0.00045,1.98704483 2.00955,0.000148275862 4.49955,0.000148275862 L55.48455,0.000148275862 C57.97455,0.000148275862 59.98455,1.98704483 59.98455,4.44842414" id="Fill-4" fill="#00D6BE" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

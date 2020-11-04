@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="full-screen" content="true">
+  <meta name="x5-fullscreen" content="true">
+  <meta name="viewport" content="width=375, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+  <meta name="renderer" content="webkit" />
+  <title>cloud os</title>
+  <link rel="stylesheet" href="<%= publicPath %><%= indexCss %>">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script src="<%= publicPath %><%= manifest %>"></script>
+  <script src="<%= publicPath %><%= vendor %>"></script>
+  <script src="<%= publicPath %><%= polyfill %>"></script>
+  <!-- 这里写IM -->
+  <script src="<%= publicPath %><%= indexJs %>"></script>
+</body>
+
+</html>

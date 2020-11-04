@@ -1,0 +1,147 @@
+/**
+ * YUI Reset
+ * @module reset
+ * @namespace
+ * @requires
+ */
+
+/**
+*	@extended Denis jony
+*	@mail jonyshi@126.com
+*
+*
+*/
+html a,
+html body,
+html div,
+html dl,
+html dt,
+html dd,
+html ul,
+html ol,
+html li,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html pre,
+html code,
+html form,
+html fieldset,
+html legend,
+html input,
+html button,
+html textarea,
+html select,
+html p,
+html blockquote,
+html th,
+html td {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html fieldset,
+html img {
+  border: 0;
+}
+
+html address,
+html button,
+html caption,
+html cite,
+html code,
+html dfn,
+html em,
+html input,
+html optgroup,
+html option,
+html select,
+html strong,
+html textarea,
+html th,
+html var {
+  font: inherit;
+}
+
+html del,
+html ins {
+  text-decoration: none;
+}
+
+html li {
+  list-style: none;
+}
+
+html caption,
+html th {
+  text-align: left;
+}
+
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+html q:before,
+html q:after {
+  content: '';
+}
+
+html abbr,
+html acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+html sup {
+  vertical-align: top;
+}
+
+html sub {
+  vertical-align: bottom;
+}
+
+/*because legend doesn't inherit in IE */
+
+
+html button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+html button {
+  *overflow: visible;
+}
+
+html strong,
+html b {
+  font-weight: bold;
+}
+
+html em {
+  font-style: italic;
+}
+
+html section,
+html nav,
+html aside,
+html article,
+html header,
+html footer {
+  display: block;
+}
+

@@ -1,0 +1,127 @@
+{
+    "status": 1,
+    "data": [
+      {
+        "widgettemplateId": "94859500-1633-4dd5-a743-e03d72aa1503",
+        "templateName": "数字化建模",
+        "templateName2": "Digital Modeling",
+        "templateName3": "數位化建模",
+        "templateType": 0,
+        "size": 0,
+        "type": 0,
+        "children": [
+          {
+            "widgettemplateId": "69bc2000-63f4-4939-9037-3f4325ed1931",
+            "templateName": "权限管理",
+            "templateName2": "Permission Mgmt",
+            "templateName3": "許可權管理",
+            "templateCode": "GZTACT",
+            "templateType": 2,
+            "size": 1,
+            "background": "",
+            "descr": "",
+            "jsurl": "",
+            "type": 0,
+            "children": [
+              {
+                "widgettemplateId": "615955f9-f716-4db5-ae76-5c7a43573b44",
+                "templateName": "全员应用授权",
+                "templateName2": "App Authorization for All Personnel",
+                "templateName3": "全員應用授權",
+                "templateCode": "GZTACT0402",
+                "templateType": 1,
+                "size": 1,
+                "descr": "默认模板",
+                "type": 0,
+                "children": []
+              }
+            ]
+          },
+          {
+            "widgettemplateId": "69bc2000-63f4-4939-9037-3f4325ed1932",
+            "templateName": "权限管理2",
+            "templateName2": "Permission Mgmt",
+            "templateName3": "許可權管理",
+            "templateCode": "GZTACT",
+            "templateType": 2,
+            "size": 1,
+            "descr": "默认模板",
+            "type": 0,
+            "children": [
+              {
+                "widgettemplateId": "615955f9-f716-4db5-ae76-5c7a43573b44",
+                "templateName": "全员应用授权",
+                "templateName2": "App Authorization for All Personnel",
+                "templateName3": "全員應用授權",
+                "templateCode": "GZTACT0403",
+                "templateType": 1,
+                "size": 1,
+                "background": "",
+                "descr": "",
+                "jsurl": "",
+                "widgetStyle": "{\"title\":{\"display\":\"none\"},\"background\":{\"backgroundImage\":\"url(https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/dbbb751e-848d-4615-b2a2-20a26cac8bcd/4.png)\"},\"hiddenIcon\":{\"display\":\"none\"}}",
+                "type": 0,
+                "children": []
+              },
+              {
+                "widgettemplateId": "615955f9-f716-4db5-ae76-5c7a43573b44",
+                "templateName": "全员应用授权",
+                "templateName2": "App Authorization for All Personnel",
+                "templateName3": "全員應用授權",
+                "templateCode": "GZTACT0404",
+                "templateType": 1,
+                "size": 1,
+                "descr": "默认模板",
+                "type": 0,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "widgettemplateId": "88b1d9c5-33fd-460a-b744-82fb7aa9fc791",
+        "templateName": "图表磁贴",
+        "templateType": 3,
+        "size": 0,
+        "type": 0,
+        "children": [
+          {
+            "tenantId": "bsyhof9l",
+            "widgettemplateId": "983ab9a6-4b3f-481c-8779-d108d5f4ec32",
+            "templateName": "老王",
+            "templateCode": "tangkun",
+            "templateType": 3,
+            "size": 0,
+            "background": "tktkt",
+            "jsurl": "https://www.baidu.com",
+            "type": 1,
+            "children": []
+          },
+          {
+            "tenantId": "bsyhof9l",
+            "widgettemplateId": "983ab9a6-4b3f-481c-8779-d108d5f4ec323",
+            "templateName": "老王1",
+            "templateCode": "tangkun1",
+            "templateType": 3,
+            "size": 0,
+            "background": "tktkt",
+            "jsurl": "https://www.baidu.com",
+            "type": 1,
+            "children": []
+          },{
+            "tenantId": "bsyhof9l",
+            "widgettemplateId": "983ab9a6-4b3f-481c-8779-d108d5f4ec324",
+            "templateName": "老王2",
+            "templateCode": "tangkun2",
+            "templateType": 3,
+            "size": 0,
+            "background": "tktkt",
+            "jsurl": "https://www.baidu.com",
+            "type": 1,
+            "children": []
+          }
+        ]
+      }
+    ]
+  }

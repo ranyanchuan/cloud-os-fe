@@ -1,0 +1,23 @@
+.wrap {
+	margin-right: 10px;
+	margin-left: 12px;
+	position: relative;
+	cursor: pointer;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.wrap::before {
+	position: absolute;
+	content: "";
+	left: -12px;
+	top: 10px;
+	width: 1px;
+	height: 12px;
+	background: #CCCCCC;
+}
+
+.wrap :global(.iconfont) {
+	font-size: 22px;
+}

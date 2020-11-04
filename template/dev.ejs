@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="full-screen" content="true">
+	<meta name="x5-fullscreen" content="true">
+	<meta name="viewport" content="width=375, user-scalable=no, minimal-ui">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+	<meta name="renderer" content="webkit" />
+	<!-- link href="//design.yonyoucloud.com/static/tinper-bee/0.6.2/assets/tinper-bee.css" rel="stylesheet" media="screen" / -->
+	<!-- <link href="//design.yonyoucloud.com/static/tinper-bee/1.0.2/assets/tinper-bee.css" rel="stylesheet" media="screen"> -->
+	<title>cloud os</title>
+	<link rel="manifest" href="./manifest.json">
+	<link rel="stylesheet" href="//design.yonyoucloud.com/static/tinper-bee/latest/assets/theme/tinper-bee-yonsuite.css">
+	<link rel="stylesheet" href="http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/xiaoyou/alpha/xiaoyou.css">
+	<script>
+
+		var getHostForGlobal = function (api) {
+			var hosts = {
+				"$ORGCENTER_HOST_OUT": "http://www.yonbip202007.com/orgcenter-u8c",
+				"$3EC_HOST": "http://www.yonbip202007.com",
+				"$YHT_ASSIST": "http://www.yonbip202007.com",
+				"$IMP_PES_HOST": "http://www.yonbip202007.com",
+				"$VIP_HOST": "http://www.yonbip202007.com",
+				"$AUTH_HOST": "http://www.yonbip202007.com/auth-fe",
+				"$ORG_HOST": "http://www.yonbip202007.com/org-fe",
+				"$SCMSA_HOST": "http://www.yonbip202007.com",
+				"$XY_RPA__HOST": "http://www.yonbip202007.com",
+				"$FINPUB_HOST": "http://www.yonbip202007.com/FC_OMC_WEB_BUILD",
+				"$ICC_HOST_OUT": "http://www.yonbip202007.com/fin-fe",
+				"$SOOC_HOST": "http://www.yonbip202007.com",
+				"$YONBUILDER_HOST": "http://www.yonbip202007.com",
+				"$MZ_HOST_OUT": "http://www.yonbip202007.com",
+				"$USERDEFINE_HOST_OUT": "http://www.yonbip202007.com/userdef-fe",
+				"$CDN_HOST_OUT": "http://www.yonbip202007.com",
+				"$ZH_BD_HOST": "http://www.yonbip202007.com",
+				"$YC_DIWORK_HOST": "http://www.yonbip202007.com",
+				"$MS_HOST": "http://www.yonbip202007.com",
+				"$EZONE_HOST": "http://www.yonbip202007.com",
+				"$IMP_PLM_HOST": "http://www.yonbip202007.com",
+				"$BD_ORG_STAFF_HOST": "http://www.yonbip202007.com",
+				"$FINBD_URL_HOST": "http://www.yonbip202007.com/finbd",
+				"$MS_HOST_OUT": "http://www.yonbip202007.com",
+				"$PRINT_HOST": "http://www.yonbip202007.com",
+				"$ICC_HOST": "http://www.yonbip202007.com/fin-fe",
+				"$FIARAP_HOST": "http://www.yonbip202007.com/FC_OMC_WEB_BUILD",
+				"$UCFBASEDOC_HOST_OUT": "http://www.yonbip202007.com/ucfbasedoc",
+				"$MDF_HOST": "http://www.yonbip202007.com/mdf-node",
+				"$yb": "http://www.yonbip202007.com",
+				"$H5_HOST": "http://www.yonbip202007.com",
+				"$FICLOUD_BASE_HOST": "http://www.yonbip202007.com/",
+				"$YYCTI_HOST": "http://www.yonbip202007.com",
+				"$PUBACCOUNT_HOST": "http://www.yonbip202007.com",
+				"$VPA_HOST": "http://www.yonbip202007.com",
+				"$LIVE_HOST": "http://www.yonbip202007.com",
+				"$YHT_APPTENANT_OUT": "http://www.yonbip202007.com",
+				"$EXT_BACK_HOST_OUT": "http://www.yonbip202007.com/u8c-userdefine",
+				"$FINBD_HOST": "http://www.yonbip202007.com/fin-fe",
+				"$NEC_HOST": "http://www.yonbip202007.com/ykj-pri-web_esn_new_diwork",
+				"$ORG_HOST_OUT": "http://www.yonbip202007.com/org-fe",
+				"$UCF_HOST": "http://www.yonbip202007.com/basedoc-fe",
+				"$PRICECENTER_HOST": "http://www.yonbip202007.com",
+				"$3EC_HOST_OUT": "http://www.yonbip202007.com",
+				"$XT_GONGDAO_HOST": "http://www.yonbip202007.com",
+				"$METADATA_HOST": "http://www.yonbip202007.com",
+				"$U8C_AUTH_HOST": "http://www.yonbip202007.com/u8c-auth",
+				"$ACC_HOST": "http://www.yonbip202007.com/FC",
+				"$DIWORK_UBL_HOST": "http://www.yonbip202007.com",
+				"$YHT_APPTENANT": "http://www.yonbip202007.com",
+				"key": "premise-dev",
+				"$WS_HOST": "http://www.yonbip202007.com",
+				"$EXT_HOST": "http://www.yonbip202007.com/userdef-fe",
+				"$WORKBENCH_HOST": "http://www.yonbip202007.com/workbench",
+				"$USERDEFINE_HOST": "http://www.yonbip202007.com/userdef-fe",
+				"$YHT_MANAGER_OUT": "http://www.yonbip202007.com",
+				"$BASE_MC_HOST": "http://www.yonbip202007.com",
+				"$MSG_CENTER_HOST_OUT": "http://www.yonbip202007.com",
+				"$MFGMR_HOST": "http://www.yonbip202007.com",
+				"$PRINT_HOST_OUT": "http://www.yonbip202007.com",
+				"$YHT_SSO": "http://www.yonbip202007.com",
+				"$EC_HOST": "http://www.yonbip202007.com/ykj-pri-web_esn_new_diwork",
+				"$MSG_HOST": "http://www.yonbip202007.com/message-platform-fe",
+				"$UPU_HOST": "http://www.yonbip202007.com",
+				"$YHT_USER_OUT": "http://www.yonbip202007.com",
+				"$ORGCENTER_HOST": "http://www.yonbip202007.com/orgcenter-u8c",
+				"$YHT_MANAGER": "http://www.yonbip202007.com",
+				"$STAFF_HOST_OUT": "http://www.yonbip202007.com/staff-fe",
+				"$UPC_SERVER_HOST": "http://www.yonbip202007.com/upc-server",
+				"$REPORT_HOST": "http://www.yonbip202007.com",
+				"$CA_HOST": "http://www.yonbip202007.com",
+				"$BD_HOST_OUT": "http://www.yonbip202007.com",
+				"$QITD_HOST": "http://www.yonbip202007.com/cloud-exceltrain-fe",
+				"$YS_HOST_OUT": "http://www.yonbip202007.com",
+				"$TPL_HOST_OUT": "http://www.yonbip202007.com/mdf-fe",
+				"$DEMO_HOST": "yonbip202007.com",
+				"$AUTH_HOST_OUT": "http://www.yonbip202007.com/auth-fe",
+				"$TAX_HOST": "http://www.yonbip202007.com",
+				"$EXT_HOST_OUT": "http://www.yonbip202007.com",
+				"$BUILDER_HOST": "http://www.yonbip202007.com",
+				"$SDMA_HOST": "http://www.yonbip202007.com",
+				"$FIIA_HOST": "http://www.yonbip202007.com/FC_OMC_WEB_BUILD",
+				"$USTOCK_HOST": "http://www.yonbip202007.com",
+				"$BD_HOST": "http://www.yonbip202007.com/staff-fe",
+				"$IMP_HOST": "http://www.yonbip202007.com",
+				"$MZ_HOST": "http://www.yonbip202007.com",
+				"$OPEN_HOST": "http://www.yonbip202007.com",
+				"$DEVELOPPLATDORM_DATASYNC": "yonbip202007.com",
+				"$CDN_HOST": "yonbip202007.com",
+				"$WORKBENCH_HOST_OUT": "http://www.yonbip202007.com/workbench",
+				"index.html": "http://www.yonbip202007.com",
+				"$YBD_HOST": "yonbip202007.com/hpapaas-passport-fe",
+				"$RETAIL_HOST": "http://www.yonbip202007.com",
+				"$BD_ORG_STAFF_HOST_OUT": "http://www.yonbip202007.com",
+				"$FIFA_HOST": "http://www.yonbip202007.com/FC_OMC_WEB_BUILD",
+				"$YONMDM_HOST": "http://www.yonbip202007.com",
+				"$VPA_ROBOT_HOST": "http://www.yonbip202007.com",
+				"$UPC_HOST": "http://www.yonbip202007.com/upc-fe",
+				"$FINBD_URL_HOST_OUT": "http://www.yonbip202007.com/finbd",
+				"$YHT_USER": "http://www.yonbip202007.com",
+				"$HR_HOST": "http://www.yonbip202007.com",
+				"$DIWORK_WORKBENCH_HOST": "http://www.yonbip202007.com",
+				"$UCF_HOST_OUT": "http://www.yonbip202007.com/basedoc-fe",
+				"$STAFF_HOST": "http://www.yonbip202007.com/staff-fe",
+				"$MSG_CENTER_HOST": "http://www.yonbip202007.com",
+				"$YS_HOST": "http://www.yonbip202007.com",
+				"$UINTTRADE_HOST": "http://www.yonbip202007.com",
+				"$HR_HOST#": "http://www.yonbip202007.com",
+				"$BASE_MC_HOST_OUT": "http://www.yonbip202007.com",
+				"$DEMO_HOST_OUT": "http://www.yonbip202007.com",
+				"$UPC_SERVER_HOST_OUT": "http://www.yonbip202007.com/upc-server",
+				"$FIN_RZ_HOST": "http://www.yonbip202007.com",
+				"$ubl": "http://ubl.yonbip202007.com",
+				"$YB_HOST": "http://www.yonbip202007.com",
+				"$MSG_HOST_OUT": "http://www.yonbip202007.com/message-platform-fe",
+				"$VPA_FE_HOST": "http://www.yonbip202007.com",
+				"$OMS_HOST": "http://www.yonbip202007.com",
+				"$H5_2_HOST": "http://www.yonbip202007.com",
+				"$SCMSA_META_HOST": "http://www.yonbip202007.com",
+				"$FICM_HOST": "http://www.yonbip202007.com/FC_OMC_WEB_BUILD",
+				"$EXT_BACK_HOST": "http://www.yonbip202007.com/u8c-userdefine",
+				"$YHT_SSO_OUT": "http://www.yonbip202007.com",
+				"$AM_HOST": "http://www.yonbip202007.com",
+				"$TPL_HOST": "http://www.yonbip202007.com/mdf-fe",
+				"$ezone": "http://www.yonbip202007.com",
+				"$UPC_HOST_OUT": "http://www.yonbip202007.com/upc-fe",
+				"$YBZ_HOST": "http://www.yonbip202007.com",
+				"$FIIT_HOST": "http://www.yonbip202007.com",
+				"$CONFIG_HOST": "http://www.yonbip202007.com/auth-fe",
+				"$MFGPO_HOST": "http://www.yonbip202007.com",
+				"$REPORT_HOST_OUT": "http://www.yonbip202007.com/intelliv",
+				"$YY_TELECOM_HOST": "http://www.yonbip202007.com",
+				"$YC_SUPPLIER_HOST": "http://www.yonbip202007.com/upc-fe-supplier",
+				"$U8C_AUTH_HOST_OUT": "http://www.yonbip202007.com/u8c-auth",
+				"$UCFBASEDOC_HOST": "http://www.yonbip202007.com/ucfbasedoc",
+				"$ybz": "http://www.yonbip202007.com"
+			};
+			return hosts[api];
+		} //域名配置
+
+
+		function os_fe_isLogin() {
+			return true;
+		}
+		function getSystemConfigs() {
+			return { "leadStatus": true };
+		}
+
+		function diworkContext() {
+			return {
+				tenantid: 'a65xtqwz',
+				userid: '99ea7655-00a2-4bda-b23c-19ade37ea574',
+				theme: '',
+				username: '',
+				locale: 'zh_CN',
+				timezone: '',
+				// dataformat:{},
+				productLine: 'diwork',
+				appcode: 'diwork',
+				profile: 'combine',
+				multilist: '[{"default":true,"dislpayName":"简体中文","enabled":true,"id":"30615b17-d9c9-4bd7-b67b-34d81e52ddc9","langCode":"zh_CN","langSequence":1},{"default":false,"dislpayName":"English","enabled":true,"id":"9a8b07d2-4f61-4968-9227-f63da9167d88","langCode":"en_US","langSequence":2},{"default":false,"dislpayName":"繁体中文","enabled":true,"id":"72977a8e-e0ae-4cff-8335-c6ad654c9ba5","langCode":"zh_TW","langSequence":3}]',
+				defaultDesktop: 'workbench',
+				orgStatus: 'multi',
+				businessDate: "2020-12-01",
+				// timezone: 'UTC+10:00',
+				// dataformat: '{"dateTimeFormat":"dd.MM.yyyy hH:mm:ss tt","numberFormat":"+#.###.###.###.###.###[,]########","dateFormat":"dd.MM.yyyy","timeFormat":"hH:mm:ss tt"}',
+			}
+		}
+
+		//获取用户信息
+		function getUserInfo() {
+			return {
+				"admin": true,
+				"openMoments": true,
+				"openHonour": true,
+				"allowTenants": [
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 1, "tenantId": "j5s3h5zt", "tenantName": "U8C激活测试(测试)", "type": 1 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 0, "tenantId": "ip4uersz", "tenantName": "u8c_gp(测试)", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "logo": "http://cdn.yonyoucloud.com/dev/apcenter/img/logo/LOGO.png", "status": 1, "team": 0, "tenantId": "d6aeu3a1", "tenantName": "u8c_gp", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "status": 1, "team": 0, "tenantId": "v3twazau", "tenantName": "U8C激活(测试)", "type": 0 },
+					{ "admin": true, "certificated": false, "enterPrise": true, "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/29da6376-a005-4adb-822b-d872ef0c9259/photo.jpg", "status": 1, "team": 1, "tenantId": "a65xtqwz", "tenantName": "云创股份-U8C", "type": 1 }
+				],
+				"company": "云创股份-U8C",
+				"currentTeamConfig": {
+					"allowExit": "1",
+					"charged": false,
+					"invitePermission": "1",
+					"isWaterMark": 1,
+					"joinPermission": "0",
+					"linkman": "u8c_vip@163.com",
+					"logo": "",
+					"subordinateType": 0,
+					"tenantAddress": "天津|天津|和平区|",
+					"tenantEmail": "u8c_vip@163.com",
+					"tenantId": "a65xtqwz",
+					"tenantIndustry": "C",
+					"tenantName": "云创股份-U8C",
+					"tenantSize": "E",
+					"tenantTel": "8618101319676",
+					"terminal": "web"
+				},
+				"defaultDesktop": "workbench",
+				"gloriesNum": 0,
+				"logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/29da6376-a005-4adb-822b-d872ef0c9259/photo.jpg",
+				"redPacketsNum": 0,
+				"userAvator": "https://cdn.yonyoucloud.com/dev/yht/avatar/style/images/avatar/99ea7655-00a2-4bda-b23c-19ade37ea574/original/original.png",
+				"userAvatorNew": "https://cdn.yonyoucloud.com/dev/yht/avatar/style/images/avatar/99ea7655-00a2-4bda-b23c-19ade37ea574/original/original.png",
+				"userCode": "YHT-870-57415517002",
+				"userEmail": "u8c_vip@163.com",
+				"userId": "99ea7655-00a2-4bda-b23c-19ade37ea574",
+				"userMobile": "13198233257",
+				"userName": "u8c_vip@163.com",
+				defaultTheme: "grey",   //grey, paleblue , yellow, blue,
+			};
+		}
+
+		function getCurrentLangCode() {
+			return 'zh_CN';
+		}
+
+		window._IUAPPREMISESFLAG = true;
+		// window._IMENABLEFLAG;
+		window._LIMITTIP_ = "";
+	</script>
+</head>
+
+<body>
+	<div id="root"></div>
+	<div id="IM"></div>
+	<div id="xiaoyou"></div>
+	<!-- <script src="https://fwq.yonyou.com/assets2/js/setlogo/loadIService.js"></script> -->
+	<!-- <script src="http://design.yonyoucloud.com/static/analytics/yiguan/latest/AnalysysAgent_JSSDK_INIT.dev.js"></script> -->
+	<script src="js/manifest.js"></script>
+	<script src="js/vendor.js"></script>
+	<script src="js/polyfill.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script src="https://yyweb-portal.oss-cn-beijing.aliyuncs.com/portal-web/portal/portal-web.js"></script> -->
+	<!-- <script src="static/IM.js"></script> -->
+	<!-- <script src="http://iuap-design-cdn.oss-cn-beijing.aliyuncs.com/static/xiaoyou/alpha/xiaoyouSDK.js" onload="osXiaoyouCallBack()"></script> -->
+	<!-- <script src="http://mdf-node.test.app.yyuap.com/mdf/resource"></script> -->
+
+</body>
+
+</html>

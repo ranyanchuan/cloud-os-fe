@@ -1,0 +1,115 @@
+.date {
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    /* padding-left: 8px; */
+    user-select: none;
+}
+
+.iconbox {
+    width: 155px;
+    height: 26px;
+    background: #F7F7F7;
+    border-radius: 14px;
+    border: 1px solid rgba(243, 243, 243, 1);
+    padding-right: 5px;
+}
+
+.iconbox>div:first-child {
+    width: 32px;
+    height: 24px;
+    line-height: 20px;
+    position: relative;
+    /* background: rgba(255, 255, 255, 1); */
+    /* border-radius: 13px; */
+    /* border-right: 1px solid #CCCCCC; */
+}
+
+.iconbox>div:first-child::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 1px;
+    height: 14px;
+    background: #CCCCCC;
+}
+
+.iconbox p {
+    line-height: 24px;
+    color: #EE2223;
+}
+
+.iconbox i {
+    font-weight: normal;
+}
+
+.iconbox>div:first-child i {
+    color: #EE2223;
+}
+
+.editIcon {
+    position: relative;
+    top: 1px;
+}
+
+.iconsty {
+    font-size: 16px;
+}
+
+.onlyIcon {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    /* margin-left: 10px; */
+}
+
+.onlyIcon::after {
+    /* content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 1px;
+    height: 12px;
+    background: #CCCCCC; */
+}
+
+.onlyIcon i {
+    font-weight: 300;
+    /* font-size: 22px; */
+    position: relative;
+    top: -1px;
+}
+
+.datebox {
+    position: absolute;
+    /* left: -200px; */
+    z-index: 1701;
+}
+
+.datebox :global(.rc-calendar-today .rc-calendar-date) {
+    border: 1px solid rgba(238, 34, 35, 1);
+    font-weight: 500;
+    color: rgba(238, 34, 35, 1);
+}
+
+.datebox :global(.rc-calendar-selected-day .rc-calendar-date) {
+    background: linear-gradient(45deg, rgba(252, 76, 47, 1) 0%, rgba(238, 34, 35, 1) 100%);
+    color: #fff;
+    border-color: #ee2223;
+}
+.datebox :global(.rc-calendar .rc-calendar-today .rc-calendar-date) {
+    border-color: #ee2223;
+}
+
+.datebox :global(.rc-calendar-date:hover) {
+    background: rgba(243, 245, 249, 1);
+    color: #666;
+}
+
+.datebox :global(.rc-calendar-selected-day .rc-calendar-date:hover) {
+    background: linear-gradient(45deg, rgba(252, 76, 47, 1) 0%, rgba(238, 34, 35, 1) 100%);
+    color: #fff;
+}

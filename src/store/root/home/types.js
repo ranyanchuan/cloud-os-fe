@@ -1,0 +1,16 @@
+import { createTypes } from '@u';
+
+export default createTypes(
+  'CHANGE_ACTIVE',
+  'ADD_TABS',
+  'CHANGE_TABS_ROUTER',
+  'GET_WORK_LIST',
+  'CHANGE_REQUEST_DISPLAY',
+  'CLOSE_REQUEST_DISPLAY',
+  'OPEN_FOLDER',
+  'CLOSE_FOLDER',
+  'SET_CREATE_ENTER',
+  'GET_ENTER_INFO',
+  'GET_APPLICATION_LIST',
+  'CLEAR_APPLICATION_TIPS',
+);

@@ -1,0 +1,38 @@
+.commonback {
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,1);
+    border-radius: 2px 0 0 2px;
+    position: fixed;
+    bottom: 40px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    right: 17px;
+}
+.toptext {
+    display: none;
+}
+.topicon {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    /* margin: 15px 0 0 4px; */
+}
+.commonback:hover {
+    background: linear-gradient(rgba(255,255,255,1),rgba(244,244,244,1));
+}
+.commonback:hover .topicon {
+    display: none;
+}
+.commonback:hover .toptext {
+    display: inline-block;
+    /* width: 30px; */
+    /* height: 30px; */
+    padding: 5px;
+    font-size: 12px;
+    color: #333333;
+    line-height: 15px;
+    /* letter-spacing: 3px; */
+    /* margin: 8px 0 0 6px; */
+}

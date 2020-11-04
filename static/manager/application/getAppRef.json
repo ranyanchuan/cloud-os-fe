@@ -1,0 +1,13 @@
+{
+    "status": 1,
+    "data": [
+        {
+            "applicationId": "a",
+            "applicationName": "应用名称"
+        },
+        {
+            "applicationId": "b",
+            "applicationName": "应用名称2"
+        }
+    ]
+}

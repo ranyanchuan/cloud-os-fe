@@ -1,0 +1,26 @@
+import { createTypes } from '@u';
+
+export default createTypes(
+  'GET_SERVICE_LIST',
+  'GET_PORTAL',
+  'OPEN_ROOT',
+  'OPEN_PORTAL',
+  'SHOW_TABS',
+  'ADD_TABS',
+  'DEL_TABS',
+  'CLOSE_TABS',
+  'UPDATE_TABS',
+  'OPEN_PIN',
+  'CLOSE_PIN',
+  'CANCEL_FOLDERS',
+  'SET_FOLDERS',
+  'ADD_FOLDERS',
+  'GET_ALL_MENU_LIST',
+  'GET_HISTORY_LIST',
+  'CHANGE_RETRACT',
+  'SET_MENU_KEYS',
+  'SET_LEAD_STATUS',
+  'RECORD_SERVICE_INFO',
+  'GET_ALL_PORTAL',
+	'SET_DEFAULT_PORTAL',
+);

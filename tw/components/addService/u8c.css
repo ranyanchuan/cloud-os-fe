@@ -1,0 +1,85 @@
+.u8c span :global(span.appRequired) {
+  color: #EE2223;
+  display: inline;
+  margin-right: 4px;
+  position: relative;
+  top: 2px;
+}
+
+.u8c :global(.app-classify span.appRequired), .u8c :global(.app-area span.appRequired) {
+  display: inline-block;
+  text-align: right;
+  width: 145px;
+}
+
+.u8c :global(.u-form-control:focus), .u8c :global(.u-form-control:hover), .u8c :global(textarea:focus), .u8c :global(textarea.common:focus), .u8c :global(textarea.common:hover), .u8c :global(.u-select-selection:focus), .u8c :global(.u-select-selection:active) {
+  border-color: #505766
+}
+
+.u8c:global(.u8cDialog .u-modal-body) {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px 28px !important;
+}
+
+.u8c:global(.u8cDialog .u-modal-header) {
+  padding: 15px !important;
+  font-size: 16px;
+  color: #666;
+}
+
+.u8c:global(.u8cDialog .u-modal-footer) {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.u8c:global(.u8cDialog .u-modal-content) {
+  border: none
+}
+
+.u8c:global(.u8cDialog .u-modal-content .u-modal-body .cdnImgOuter) {
+  margin: 10px 10px !important;
+}
+
+.u8c :global(.app-classify span.labelName), .u8c :global(.app-area span.labelName) {
+  font-size: 14px;
+  color: #666;
+  width: 176px!important;
+  display: inline-block;
+  text-align: left;
+}
+
+.u8c :global(.app-bf1 .app-classify .nameArea), .u8c :global(.app-bf1 .app-area .nameArea) {
+  display: block;
+  width: auto;
+  text-align: left;
+}
+
+.u8c:global(.u8cDialog .iconOuter) {
+  position: relative;
+  top: 12px;
+  margin: 18px auto;
+}
+
+.u8c :global(.app-bf1 .u-radio-group) {
+  font-size: 14px;
+	color: #555;
+	display: inline-block;
+}
+
+.u8c :global(.u-checkbox span) {
+  font-size: 14px;
+  color: #555;
+}
+
+.u8c :global(.app-bf1 .nameArea) {
+  display: inline-block;
+  width: 124px;
+  text-align: right;
+  margin-right: 15px;
+  color: #666;
+}
+
+.u8c :global(.uploadTypeBtn .selectImg), .u8c :global(.uploadTypeBtn .uploadImg) {
+  max-width: 132px;
+}

@@ -1,0 +1,172 @@
+{
+    "status": 1,
+    "data": {
+        "openMoments": true,
+        "openHonour": true,
+        "company": "云工作台3.0测试环境你是啊大大的",
+        "userAvator":"",
+        "userEmail": "wangsh@yonyou.com",
+        "userName": "王石",
+        "userMobile": "15810266391",
+        "userId": "0c294160-fad0-412c-b6c5-47b4bd28dda2",
+        "userCode": "yy_6323278514397119500VYfYyY",
+        "roleIds": null,
+        "roles": null,
+        "orgId": null,
+        "orgName": null,
+        "orgCode": null,
+        "logo": null,
+        "redPacketsNum": 0,
+        "gloriesNum": 0,
+        "allowTenants": [
+            {
+                "tenantId": "gtzceot7",
+                "tenantName": "云工作台3.0测试环境你是啊大大的",
+                "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/79c0eabb-1256-44c1-9b47-515dd799a76e/timg.jpg",
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "hy0s3xal",
+                "tenantName": "团队2001",
+                "logo": null,
+                "admin": false,
+                "team": 1,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": false
+            },
+            {
+                "tenantId": "ilgupu9r",
+                "tenantName": "mmmmmm",
+                "logo": null,
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "ued7w3bj",
+                "tenantName": "9999",
+                "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/1b8f38d3-c2e4-48b3-9a76-2473fd93408e/1001.png",
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "vt08dnw7",
+                "tenantName": "kkkkkk999",
+                "logo": null,
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "wqqfu1b6",
+                "tenantName": "23423",
+                "logo": null,
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "xotw7o9z",
+                "tenantName": "ggggg",
+                "logo": null,
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "yn773kij",
+                "tenantName": "测试七",
+                "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/14aebd95-4c9c-4a1d-a44b-67716b8f843e/632680F6-4B67-4F24-989D-50FA54A6097E.png",
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "zi5audjj",
+                "tenantName": "64564",
+                "logo": null,
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "zo65hmfa",
+                "tenantName": "6666666",
+                "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/cc07c06f-6c3d-4f41-9fd2-94d1ca8acb49/632680F6-4B67-4F24-989D-50FA54A6097E.png",
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            },
+            {
+                "tenantId": "zw5c00yu",
+                "tenantName": "王宁团队成员1",
+                "logo": null,
+                "admin": false,
+                "team": 1,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": false
+            },
+            {
+                "tenantId": "zxb0umwj",
+                "tenantName": "新[王石]企业账户一",
+                "logo": "https://file-cdn.yonyoucloud.com/workbench-image-path-applicationIcon/df0d62e4-f5fc-49fa-884a-71b43c44bbff/1001.png",
+                "admin": true,
+                "team": 0,
+                "type": 0,
+                "certificated": false,
+                "status": 1,
+                "enterPrise": true
+            }
+        ],
+        "currentTeamConfig": {
+            "tenantId": "gtzceot7",
+            "tenantName": "云工作台3.0测试环境你是啊大大的",
+            "logo": null,
+            "linkman": "18101319676",
+            "tenantAddress": "北京|北京|海淀区|永腾南路用友产业园",
+            "tenantEmail": "zhengxc@yonyou.com",
+            "tenantIndustry": "计算机硬件及网络设备",
+            "tenantTel": "18101319676",
+            "invitePermission": "0",
+            "joinPermission": "0",
+            "allowExit": "1",
+            "tenantSize": "A",
+            "terminal": "web"
+        },
+        "admin": true
+    }
+}
